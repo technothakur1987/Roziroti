@@ -1,7 +1,7 @@
 project created using bootstrap5.3 , reactjs with vite, 
 react router used for Routing 
 
-
+LIVE dEMO lINK IS https://roziroti2024.netlify.app/
 
 open this code in vs code and in terminal 
 npm install
