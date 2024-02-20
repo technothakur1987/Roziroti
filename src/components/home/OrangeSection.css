@@ -1,0 +1,74 @@
+.oSection{
+    min-height: 80vh;
+    background-color: #c15627;
+}
+.oSection h2{
+    color: #FFF;
+    margin-bottom: 0px;
+    font-size: 4rem;
+    line-height: 4.5rem;
+    font-family: "F37 Caslon", serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.oSection p{
+    margin: 30px auto;
+    color: #FFF;
+    font-size: 1.25rem;
+    max-width: 460px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    letter-spacing: 0.16px;
+}
+.oSection input{
+    height: 3rem;
+    width:30vw ;
+    border-radius: 20px;
+    margin-bottom: 2.5rem;
+    
+}
+.oSection input::placeholder{
+    color: #f89566;
+    font-size: 1.25rem;
+    max-width: 460px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    letter-spacing: 0.16px;
+    text-align: center;
+    
+}
+
+
+@media (max-width: 991.98px) { 
+    .oSection{
+        min-height: 50vh;
+        background-color: #c15627;
+    }
+    
+ }
+
+ @media (max-width: 767.98px) { 
+    .oSection p{
+        margin: 30px auto;
+        color: #FFF;
+        font-size: 1.25rem;
+        max-width: 90vw;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 140%;
+        letter-spacing: 0.16px;
+        text-align: center;
+    }
+    .oSection input{
+        height: 3rem;
+        width:60vw ;
+        border-radius: 20px;
+        margin-bottom: 2.5rem;
+        
+    }
+    
+    
+ }

@@ -1,0 +1,40 @@
+.indicator-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .indicator {
+    width: 20px;
+    height: 2px;
+    background-color: #1A4122;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .indicator.active {
+    background-color: #C15627;
+  }
+  .sec1-imgwraper .img-fluid{
+    height: 85vh;
+    width: 50vw;
+    border-top-left-radius: 50%;
+    overflow-x: hidden;
+  }
+  .sec1-imgwraper{
+    overflow-x: hidden;
+  }
+
+
+  /*media Querieds*/
+  @media (max-width: 991.98px) {
+    .sec1-imgwraper .img-fluid {
+      height: 40vh;
+      width: 95vw;
+      border-top-left-radius: 200px ;
+      overflow-x: hidden;
+      margin-left: 5vw;
+      margin-top: 5vh;
+  }
+
+  }  

@@ -1,0 +1,254 @@
+.ufv{
+    
+    width: 100%;
+   min-height: 108vh;
+   
+    
+    
+}
+.ufvbanner{
+    min-height: 90vh;
+    width: 100vw;
+background: url('https://24carrots.com/wp-content/uploads/2023/10/unforegetable-banner.png'); 
+position: relative;
+background-position: top;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+
+
+}
+/* .circleufv{
+    height: 110vmin;
+    width: 110vmin;
+    position: absolute;
+    
+    border-radius: 50%;
+    transform: translateX(30%);
+    z-index: 9997;
+    bottom: -95%;
+    background-color: white;
+    
+} */
+.circleufv{
+    position: absolute;
+  background-color: white;
+  
+  height: 40rem;
+  width: 40rem;
+  border-radius: 50%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%)translateY(75%);
+  z-index: 9999;
+  
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  
+  
+ 
+
+
+}
+.content-circle h3{
+    color: #647B4E;
+    text-align: center;
+    font-family: "Rustica", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.circle-main{
+    color: #1A4122;
+    text-align: center;
+    font-family: "F37 Caslon", serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 92%;
+    letter-spacing: -3px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+    
+}
+.content-circle p{
+    color: #1A4122;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+
+/*media Queries*/
+
+
+
+
+
+ @media (max-width: 991.98px) { 
+    .ufv{
+    
+        width: 100%;
+       min-height: 80vh;
+       
+        
+        
+    }
+
+    .ufvbanner{
+        min-height: 45vh;
+        width: 100vw;
+    background: url('https://24carrots.com/wp-content/uploads/2023/10/unforegetable-banner.png'); 
+    position: relative;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+    
+    }
+    .circleufv{
+        position: absolute;
+      background-color: white;
+      
+      height: 24rem;
+      width: 24rem;
+      border-radius: 50%;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%)translateY(75%);
+      z-index: 9999;
+      
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+      
+      
+     
+    
+    
+    }
+
+    .content-circle h3{
+        color: #647B4E;
+    text-align: center;
+    font-family: "Rustica", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    }
+    .circle-main{
+        font-size: 3.2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: -1px;
+    line-height: 3.3rem
+        
+    }
+    .content-circle p{
+        color: #1A4122;
+        font-size: 20px;
+        letter-spacing: 0.16px;
+        width: 90vw;
+        font-size: 20px;
+    line-height: 140%;
+    margin-bottom: 35px 
+    }
+    .mqpadding{
+        padding-top: 7.8rem!important;
+    }
+
+
+ }
+
+
+
+
+ @media (max-width: 767.98px) { 
+    .ufv{
+    
+        width: 100%;
+       min-height: 100vh;
+      
+        
+        
+    }
+
+    .ufvbanner{
+        min-height: 45vh;
+        width: 100vw;
+    background: url('https://24carrots.com/wp-content/uploads/2023/10/unforegetable-banner.png'); 
+    position: relative;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+    
+    
+    }
+    .circleufv{
+        position: absolute;
+      background-color: white;
+      
+      height: 24rem;
+      width: 24rem;
+      border-radius: 50%;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%)translateY(75%);
+      z-index: 9999;
+      
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+      margin-bottom: 1.25rem;
+      
+      
+     
+    
+    
+    }
+
+    .content-circle h3{
+        color: #647B4E;
+    text-align: center;
+    font-family: "Rustica", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    }
+    .circle-main{
+        font-size: 3.2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: -1px;
+    line-height: 3.3rem
+        
+    }
+    .content-circle p{
+        color: #1A4122;
+        font-size: 20px;
+        letter-spacing: 0.16px;
+        width: 90vw;
+        font-size: 20px;
+    line-height: 140%;
+    margin-bottom: 35px 
+    }
+    .mqpadding{
+        padding-top: 7.8rem!important;
+    }
+
+
+ }

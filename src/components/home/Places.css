@@ -1,0 +1,1276 @@
+.places{
+    margin-top: 65vh;
+    position: relative;
+    z-index: 9998;
+    background-color: #fff;
+    min-height: 100vh;
+    
+    overflow-x: hidden!important;
+    
+    
+}
+
+.business{
+    margin-top: 50vh;
+    background-color: #d8e0d1;
+    min-height: 175vh;
+    padding-top: 50vh;
+    
+}
+.busi2 h2{
+    text-align: center;
+    
+    margin: 0px auto 30px ;
+    color: #1A4122;
+    text-align: center;
+    font-family: "F37 Caslon", serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 92%;
+    letter-spacing: -3px;
+
+
+}
+.busi2 p{
+    text-align: center;
+    color: #1A4122;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.16px;
+    padding:0 3.5rem;
+    
+
+}
+.foods{
+    background-color: #fff;
+    min-height: 100vh;
+}
+.foods iframe{
+    min-height: 100vh;
+    min-width: 80vw;
+    margin: 1.5rem 10vw;
+    position: relative;
+    bottom: 50vh;
+}
+
+.foods h2{
+    text-align: center;
+    
+    margin: -10rem auto 30px ;
+    color: #1A4122;
+    text-align: center;
+    font-family: "F37 Caslon", serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 92%;
+    letter-spacing: -3px;
+
+
+}
+.foods p{
+    text-align: center;
+    color: #1A4122;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.16px;
+    padding:0 3.5rem;
+    
+
+}
+.ggg{
+    min-height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem 0;
+}
+.ggg h3 {
+    font-family: "F37 Caslon", serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    color: #1A4122;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    position: relative;
+    z-index: 2;
+    text-align: start;
+    padding: 0.5rem;
+    transition: 0.5s ease;
+    overflow: hidden; /* Hide overflowing border */
+}
+
+.ggg h3::before,
+.ggg h3::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 3px solid transparent;
+    pointer-events: none; /* Allow h3 text to be selectable */
+    transition: 1.5s ease-in-out ;
+    transform-origin: center;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    border-style: groove;
+}
+
+.ggg h3::before {
+    top: 0;
+    left: -16px;
+    border-top-left-radius: 161.5rem;
+    border-top-right-radius: 2733.8rem;
+    border-bottom-right-radius: 445.7rem;
+    border-bottom-left-radius: 21.1rem;
+    border-color: transparent;
+}
+
+.ggg h3::after {
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 10.8rem;
+    border-top-right-radius: 70.5rem;
+    border-bottom-right-radius: 143.1rem;
+    border-bottom-left-radius: 136.7rem;
+    border-color: transparent;
+}
+
+.ggg h3:hover::before,
+.ggg h3:hover::after {
+    border-color: #e99a75;
+}
+
+.ttte::before{
+    content: '';
+    width: 310px;
+    height: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -12px;
+    left: -21px;
+    display: none;
+}
+
+.ggg p{
+    text-align: start;
+    letter-spacing: 0.16px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    color: #1A4122;
+    margin-bottom: 1.5em ;
+
+}
+.places .img-wrapper{
+    padding: 2.5rem 0;
+
+}
+.places .img-wrapper .img-fluid{
+    border-top-right-radius: 45%;
+    border-top-left-radius: 45%;
+    margin-top: 4.5rem;
+    min-height: 80vh;
+    
+    
+
+}
+
+
+
+.green{
+   
+    min-height: 250vh;
+    background: url('https://24carrots.com/wp-content/themes/24carrots/img/happy_clients_carrot.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: fill;
+}   
+.lightgreen{
+    background: rgb(26, 65, 34, 0.8);
+    min-height: 190vh;
+}
+.green .img-fluid{
+    margin-top: -3.5rem;
+}
+.green h2{
+    text-align: center;
+    
+    margin: 1.5rem auto 30px ;
+    color: #fff;
+    text-align: center;
+    font-family: "F37 Caslon", serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 92%;
+    letter-spacing: -3px;
+}
+.green p{
+    color: #B4C7A3;
+    text-align: center;
+    font-family: "futura-pt", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    max-width: 680px;
+    margin: 0px auto;
+}
+
+
+/*carousel*/
+.carousel-item .img-fluid{
+    height: 25rem;
+    width: 25rem;
+    object-fit: cover;
+}
+.carousel-caption {
+    position: absolute;
+    right: 0%;
+    bottom: 14.25rem;
+    left: 44%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+.carousel-caption h5{
+    text-align: start;
+    margin-top: -3rem;
+    margin-bottom: -3rem;
+
+
+    color: #FFF;
+    font-family: Futura PT;
+    
+}
+.carousel-caption p{
+    text-align: start;
+    margin-top: 5rem;
+    margin-bottom: -5rem;
+    font-family: Futura PT;
+    
+    
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 4%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 23%;
+}
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    margin-right: 16px;
+    margin-left: 16px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+.carousel-control-prev-icon {
+    display: none;
+}
+/*background-image: url(img/icon/next-icon.svg);
+    background-size: 26px;
+    background-repeat: no-repeat;
+    background-position: center;*/
+
+    .carousel-control-next-icon {
+        background-image: url('https://24carrots.com/wp-content/themes/24carrots/img/icon/next-icon.svg');
+        background-color: transparent;
+    border: solid #FFF;
+border-radius: 50%;
+margin-left: 1.5rem;}
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 86%;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+.nexttut{
+    color: #fff!important;
+    font-family: Futura PT;
+
+}
+.carousel-indicators .active{
+    color: #fff!important;
+    background-color: #fff!important;
+}
+
+
+
+.blog{
+    min-height: 100vh;
+    background: transparent;
+   
+    margin-top: -43rem;
+    padding-top: 2.5rem;
+}
+.blog h2{
+    text-align: center;
+    color: #FFF;
+    font-size: 4rem;
+    line-height: 4.5rem;
+    font-family: "F37 Caslon", serif;
+    font-weight: lighter;
+}
+
+.wrapper {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: #C15627; Orange color with transparency */
+    color: white;
+    padding: 10px 20px;
+    display: none;
+    transition: opacity 0.3s ease; /* Smooth transition for the overlay text */
+    display: block;
+  }
+  
+  .wrapper:hover .overlay-text {
+    display: block;
+  }
+  
+  .wrapper img {
+    transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transitions for the image */
+    height: 50vh;
+    width: 100%;
+  }
+  
+  .wrapper:hover img {
+    filter: brightness(0.7); /* Darken the image on hover */
+    transform: scale(1.1); /* Scale the image on hover */
+    background-color: rgb(193, 86, 39, 0.9);
+  }
+
+  .orangeround{
+    background-color: rgb(193, 86, 39, 0.9);
+    color: #fff;
+    max-width: 20vw;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 2vh;
+  }
+  .blackround{
+    background-color: #000000;
+    color: #fff;
+    max-width: 20vw;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 2vh;
+  }
+  .roundh2{
+    font-size: 21px!important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    
+    color: #1A4122!important;
+    font-family: "F37 Caslon", serif;
+    text-align: start!important;
+
+  }
+  .roundp{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    letter-spacing: 0.16px;
+    color: #1A4122;
+    font-family: "futura-pt", sans-serif;
+  }
+  
+  
+
+
+
+.sec{
+    min-height: 100vh;
+}
+
+  .sec:before {
+    content: '';
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 332px;
+    height: 173px;
+    display: block;
+    position: relative;
+    top: 40px;
+    background-image: url('https://24carrots.com/wp-content/themes/24carrots/img/animate/instagram-arrow.gif');
+    margin: 0px auto 40px;
+    transform: rotate(20deg);
+}
+
+.instaIcon{
+    background: url('https://24carrots.com/wp-content/themes/24carrots/img/icon/instagram.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 2rem;
+    width: 2rem;
+    
+}
+.sec h2{
+    color: #1A4122;
+    text-align: left;
+    font-family: "F37 Caslon", serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 92%;
+    letter-spacing: -3px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+.sec p{
+    text-align: left;
+    font-size: 20px;
+    line-height: 140%;
+    
+    max-width: 378px ;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.16px;
+    color: #1A4122;
+}
+.greencolor{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 3.24px;
+    text-transform: uppercase;
+    color: #1A4122;
+    text-decoration: none;
+    
+}
+.greencolor:hover {
+    color:rgb(193, 86, 39, 0.9)!important;
+}
+
+.collage-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  .img-1 {
+    transform: rotate(-19deg)translatey(45px)translateX(-51px);
+    height: 49vh;
+    width: 22vw;
+    box-shadow: 1px 1px 5px 5px #ddd;
+    object-fit: cover;
+}
+  
+.img-2 {
+    transform: rotate(19deg)translateX(-41px)translateY(-31px);
+    height: 11rem;
+    width: 11rem;
+    box-shadow: 1px 1px 10px 5px #ddd;
+    object-fit: cover;
+}
+.img-3{
+    display: none;
+}
+  
+
+
+
+/*mediaQueries*/
+
+
+@media (max-width: 991.98px) {
+
+
+    .places{
+        margin-top: 0vh;
+        position: relative;
+        z-index: 9998;
+        background-color: #fff;
+        min-height: 100vh;
+        
+        overflow-x: hidden!important;
+        
+        
+    }
+    /*business*/
+    .business {
+        margin-top: 11vh;
+        background-color: #d8e0d1;
+        min-height: 44vh;
+        padding-top: 17vh;
+    }
+    .busi2 h2{
+        font-size: 3.2rem;
+        padding-left: 20px;
+        padding-right: 20px;
+        letter-spacing: -1px;
+        line-height: 3.3rem;
+        text-align: center;
+        margin: 0px auto 30px;
+        color: #1A4122;
+        font-family: "F37 Caslon", serif;
+        font-style: normal;
+    font-weight: 400;
+    
+    
+    }
+    .busi2 p{
+        text-align: center;
+        color: #1A4122;
+        font-size: 20px;
+        line-height: 140%;
+        letter-spacing: 0.16px;
+        padding:0 3.5rem;
+        
+    
+    }
+
+    .foods{
+        background-color: #fff;
+        min-height: 10vh;
+    }
+    .foods iframe{
+        min-height: 30vh;
+        min-width: 80vw;
+        margin: 1.5rem 10vw;
+        position: relative;
+        bottom: 7vh;
+        
+    }
+    
+    .foods h2{
+        font-size: 3.2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: -1px;
+    line-height: 3.3rem;
+    text-align: center;
+    margin: -60px auto 30px ;
+    color: #1A4122;
+    font-family: "F37 Caslon", serif;
+    font-style: normal;
+    font-weight: 400;
+    
+    
+    }
+    .foods p{
+        text-align: center;
+        color: #1A4122;
+        font-size: 20px;
+        line-height: 140%;
+        letter-spacing: 0.16px;
+        padding:0 3.5rem;
+        
+    
+    }
+    .flex-basismq100{
+        flex-basis: 100%;
+    }
+    .mqflexOrder1{
+        order:1;
+    }
+    .mqflex-order3{
+        order:3;
+    }
+    .mqflexOrder2{
+        order:2
+    }
+
+    .places .img-wrapper{
+        padding: 2.5rem 0;
+    
+    }
+    .places .img-wrapper .img-fluid{
+        border-top-right-radius: 45%;
+        border-top-left-radius: 45%;
+        margin-top: 0rem;
+        min-height: 30vh;
+    max-height: 40vh 
+        
+        
+    
+    }
+
+    .ggg {
+        min-height: 10vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0.8rem 0;
+        margin-bottom: 1rem;
+    }
+    .ggg h3 {
+        margin-top: 0;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+
+    /*green*/
+    
+    .green{
+   
+        min-height: 100vh;
+        background: url('https://24carrots.com/wp-content/themes/24carrots/img/happy_clients_carrot.svg');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: fill;
+        margin-top: 10vh;
+    }   
+    .lightgreen{
+        background: rgb(26, 65, 34, 0.8);
+        min-height: 115vh;
+    }
+    .green .img-fluid{
+        margin-top: -3.5rem;
+    }
+    .green h2{
+        text-align: center;
+    color: #FFF;
+    margin-bottom: 30px;
+    font-size: 4rem;
+    line-height: 4.5rem;
+    font-family: "F37 Caslon", serif;
+    font-weight: lighter;
+    }
+    .green p{
+        color: #B4C7A3;
+        text-align: center;
+        font-family: "futura-pt", sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        max-width: 680px;
+        margin: 0px auto;
+    }
+    
+    
+    /*carousel*/
+    .carousel-item {
+        height: 50vh;
+    }
+    .carousel-item .img-fluid{
+        height: 25rem;
+        width: 100% ;
+        object-fit: cover;
+    }
+    .carousel-caption {
+        position: absolute;
+    right: 0%;
+    bottom: 9rem;
+    left: 0%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    }
+    .carousel-caption h5{
+        text-align: center;
+    margin-top: 0;
+    margin-bottom: -4rem;
+    color: #FFF;
+    font-family: Futura PT;
+    padding-left: 10.5rem;
+    padding-right: 10.5rem;
+        
+    }
+    .carousel-caption p{
+        text-align: center;
+        margin-top: 4rem;
+        margin-bottom: -5rem;
+        font-family: Futura PT;
+        
+        
+    }
+    .carousel-indicators {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin-right: 0;
+        margin-bottom: 1rem;
+        margin-left: 0;
+    }
+    .carousel-indicators [data-bs-target] {
+        box-sizing: content-box;
+        flex: 0 1 auto;
+        width: 30px;
+        height: 3px;
+        padding: 0;
+        margin-right: 16px;
+        margin-left: 16px;
+        text-indent: -999px;
+        cursor: pointer;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        opacity: .5;
+        transition: opacity .6s ease;
+    }
+    .carousel-control-prev-icon {
+        display: inline-block;
+        background-image: url('https://24carrots.com/wp-content/themes/24carrots/img/icon/next-icon.svg');
+            background-color: transparent;
+        border: solid #FFF;
+    border-radius: 50%;
+    margin-left: 1.5rem;
+    rotate: 180deg;
+    height: 5rem;
+width: 5rem;
+    }
+    /*background-image: url(img/icon/next-icon.svg);
+        background-size: 26px;
+        background-repeat: no-repeat;
+        background-position: center;*/
+    
+        .carousel-control-next-icon {
+            background-image: url('https://24carrots.com/wp-content/themes/24carrots/img/icon/next-icon.svg');
+            background-color: transparent;
+        border: solid #FFF;
+    border-radius: 50%;
+    margin-left: 1.5rem;
+height: 5rem;
+width: 5rem;}
+    
+    .carousel-control-next, .carousel-control-prev {
+        position: absolute;
+        top: 86%;
+        bottom: 0;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+        background: 0 0;
+        border: 0;
+        opacity: .5;
+        transition: opacity .15s ease;
+    }
+    .nexttut{
+        color: #fff!important;
+        font-family: Futura PT;
+        display: none;
+    
+    }
+    .carousel-indicators .active{
+        color: #fff!important;
+        background-color: #fff!important;
+    }
+
+    /*blog*/
+    .blog{
+        min-height: 50vh;
+        background: transparent;
+       
+        margin-top: -25rem;
+        padding-top: 2.5rem;
+    }
+    .blog h2{
+        text-align: center;
+        color: #FFF;
+        font-size: 4rem;
+        line-height: 4.5rem;
+        font-family: "F37 Caslon", serif;
+        font-weight: lighter;
+    }
+    .mq100flex{
+        flex-basis: 100%;
+    }
+    .wrapper {
+        position: relative;
+        overflow: hidden;
+        padding-top: 1rem;
+      }
+      
+      .overlay-text {
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* background-color: #C15627; Orange color with transparency */
+        color: white;
+        padding: 10px 20px;
+        display: none;
+        transition: opacity 0.3s ease; /* Smooth transition for the overlay text */
+        display: block;
+      }
+      
+      .wrapper:hover .overlay-text {
+        display: block;
+      }
+      
+      .wrapper img {
+        transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transitions for the image */
+        height: 30vh;
+        width: 100%;
+      }
+      
+      .wrapper:hover img {
+        filter: brightness(0.7); /* Darken the image on hover */
+        transform: scale(1.1); /* Scale the image on hover */
+        background-color: rgb(193, 86, 39, 0.9);
+      }
+      .orangeround {
+        background-color: rgb(193, 86, 39, 0.9);
+        color: #fff;
+        max-width: 32vw;
+        text-align: start;
+        border-radius: 20px;
+        margin-top: 2vh;
+        padding:0.02rem 0.750rem;
+    }
+    .blackround{
+        background-color: #000000;
+        color: #fff;
+        max-width: 32vw;
+        text-align: start;
+        border-radius: 20px;
+        margin-top: 2vh;
+        padding:0.02rem 0.750rem;
+      }
+        
+.roundh2{
+    margin-top: 0;
+    font-size: 33px!important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: -10px ;
+    color: #1A4122;
+    font-family: "F37 Caslon", serif;
+}
+
+
+  
+  .roundp{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    letter-spacing: 0.16px;
+    color: #1A4122;
+    font-family: "futura-pt", sans-serif;
+  }
+
+
+
+  /*experience section*/
+  .sec{
+    min-height: 100vh;
+}
+
+  .sec:before {
+    content: '';
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 332px;
+    height: 173px;
+    display: block;
+    position: relative;
+    top:-65px;
+    background-image: url('https://24carrots.com/wp-content/themes/24carrots/img/animate/instagram-arrow.gif');
+    margin: 0px auto 0;
+    transform: rotate(20deg);
+}
+.mqflexfull{
+    flex-basis: 100%;
+}
+.instaIcon{
+    background: url('https://24carrots.com/wp-content/themes/24carrots/img/icon/instagram.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 2rem;
+    width: 2rem;
+    
+}
+.sec h2{
+    text-align: center ;
+    font-size: 3.2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: -1px;
+    line-height: 3.3rem;
+    color: #1A4122;
+    font-family: "F37 Caslon", serif;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.sec p{
+    text-align: center;
+    font-size: 20px;
+    line-height: 140%;
+    
+    max-width: 378px ;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.16px;
+    color: #1A4122;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mqjustifycenter{
+    justify-content: center!important;
+    padding-top: 2.5rem;
+}
+.greencolor{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 3.24px;
+    text-transform: uppercase;
+    color: #1A4122;
+    text-decoration: none;
+    
+}
+.greencolor:hover {
+    color:rgb(193, 86, 39, 0.9)!important;
+}
+
+.collage-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  .img-1 {
+    transform: rotate(-12deg)translatey(78%)translateX(45%);
+    height: 30vh;
+    width: 30vw;
+    box-shadow: 1px 1px 5px 5px #ddd;
+    object-fit: cover;
+}
+  
+.img-2 {
+    
+
+    transform: rotate(12deg)translateX(94%)translateY(57%);
+    height: 12rem;
+    width: 12rem;
+    box-shadow: 1px 1px 10px 5px #ddd;
+    object-fit: cover;
+}
+.img-3{
+    display: block;
+    transform: rotate(6deg)translateX(-29%)translateY(176%);
+    height: 15rem;
+    width: 15rem;
+    box-shadow: 1px 1px 10px 5px #ddd;
+    object-fit: cover;
+}
+  
+}
+
+@media (max-width: 767.98px) {
+
+
+.places{
+    margin-top: 0vh;
+    position: relative;
+    z-index: 9998;
+    background-color: #fff;
+    min-height: 100vh;
+    
+    overflow-x: hidden!important;
+    
+    
+}
+
+.business {
+    margin-top: 11vh;
+    background-color: #d8e0d1;
+    min-height: 110vh;
+    padding-top: 25vh;
+}
+.ggg p{
+    padding: 0 0.5rem;
+}
+
+.lightgreen {
+    background: rgb(26, 65, 34, 0.8);
+    min-height: 190vh;
+}
+.carousel-item  {
+    height: 90vh;
+}
+.carousel-item .active {
+    height: 90vh;
+}
+.carousel-inner{
+    height: 90vh;
+}
+.carousel-caption {
+    position: absolute;
+    right: 0%;
+    bottom: 1rem;
+    left: 0%;
+    padding-top: 18.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+.carousel-caption h5 {
+    text-align: center;
+    margin-top: 4.5rem;
+    margin-bottom:03rem;
+    color: #FFF;
+    font-family: Futura PT;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+.carousel-caption p {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: -2rem;
+    font-family: Futura PT;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -10%;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    margin-left: 0;
+}
+.carousel-control-prev-icon {
+    display: inline-block;
+    background-image: url('https://24carrots.com/wp-content/themes/24carrots/img/icon/next-icon.svg');
+        background-color: transparent;
+    border: solid #FFF;
+border-radius: 50%;
+margin-left: -3.5rem;
+rotate: 180deg;
+height:2rem;
+width: 2rem;
+}
+/*background-image: url(img/icon/next-icon.svg);
+    background-size: 26px;
+    background-repeat: no-repeat;
+    background-position: center;*/
+
+    .carousel-control-next-icon {
+        background-image: url('https://24carrots.com/wp-content/themes/24carrots/img/icon/next-icon.svg');
+        background-color: transparent;
+    border: solid #FFF;
+border-radius: 50%;
+margin-left: 2.5rem;
+height: 2rem;
+width: 2rem;}
+
+.blog h2 {
+    text-align: center;
+    color: #FFF;
+    font-size: 3rem;
+    line-height: 2.5rem;
+    font-family: "F37 Caslon", serif;
+    font-weight: lighter;
+    margin-top: 4.5rem;
+}
+.blog{
+    padding-left: 1rem!important;
+    padding-right: 1rem!important;
+    padding-top: 13.5rem;
+}
+.orangeround{
+    max-width:58vw;
+}
+.roundh2{
+    margin-bottom: 25px;
+}
+.blackround{
+    max-width:58vw;
+}
+
+.sec{
+    min-height: 100vh;
+    padding-left: 1rem!important;
+    padding-right: 1rem!important;
+}
+
+  .sec:before {
+    content: '';
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 332px;
+    height: 173px;
+    display: none;
+    position: relative;
+    top:-65px;
+    background-image: url('https://24carrots.com/wp-content/themes/24carrots/img/animate/instagram-arrow.gif');
+    margin: 0px auto 0;
+    transform: rotate(20deg);
+}
+.mobileflexOrder1{
+    order: 1;
+    padding-left: 1.5rem;
+    min-height: 50vh;
+    
+}
+.mobileflexOrder2{
+    order: 2;
+    
+    min-height: 50vh;
+    
+}
+.mqflexfull{
+    flex-basis: 100%;
+}
+.instaIcon{
+    background: url('https://24carrots.com/wp-content/themes/24carrots/img/icon/instagram.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 2rem;
+    width: 2rem;
+    
+}
+.sec h2{
+    text-align: center ;
+    font-size: 3.2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: -1px;
+    line-height: 3.3rem;
+    color: #1A4122;
+    font-family: "F37 Caslon", serif;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 4.9rem;
+    margin-bottom: 24px;
+}
+.sec p{
+    text-align: center;
+    font-size: 20px;
+    line-height: 140%;
+    
+    max-width: 378px ;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.16px;
+    color: #1A4122;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mqjustifycenter{
+    justify-content: center!important;
+    padding-top: 2.5rem;
+}
+.greencolor{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 3.24px;
+    text-transform: uppercase;
+    color: #1A4122;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+.greencolor:hover {
+    color:rgb(193, 86, 39, 0.9)!important;
+}
+
+.collage-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  .img-1 {
+    transform: rotate(-12deg)translatey(36%)translateX(0%);
+    height: 30vh;
+    width: 40vw;
+    box-shadow: 1px 1px 5px 5px #ddd;
+    object-fit: cover;
+}
+
+
+  
+.img-2 {
+    transform: rotate(19deg)translateX(6%)translateY(33%);
+    height: 10rem;
+    width: 10rem;
+    box-shadow: 1px 1px 10px 5px #ddd;
+    object-fit: cover;
+}
+.img-3 {
+    display: block;
+    transform: rotate(9deg)translateX(-64%)translateY(150%);
+    height: 11rem;
+    width: 11rem;
+    box-shadow: 1px 1px 10px 5px #ddd;
+    object-fit: cover;
+}
+
+
+
+}
+

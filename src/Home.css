@@ -1,0 +1,27 @@
+/* .commonbtn{
+    background-color: #C15627;
+    border-radius: 30px;
+    padding: 10px 60px 10px 40px;
+    text-wrap: nowrap;
+    position: relative;
+    text-transform: uppercase;
+    font-family: "futura-pt", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFF;
+    transition: .2s;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+
+} */
+.home{
+    position: relative;
+    z-index: 9997;
+}

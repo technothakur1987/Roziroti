@@ -1,0 +1,399 @@
+
+.Footer{
+    background-color: #E9E4E0;
+    padding-top: 40vh;
+}
+.linkFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    font-family: "F37 Caslon", serif;
+}
+a{
+    text-decoration: none;
+    color: #011405;
+    margin-bottom: .5rem;
+}
+.main{
+    color: #011405;
+    font-family: "F37 Caslon", serif;
+}
+.mainp{
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    letter-spacing: 0.16px;
+    color: #1A4122;
+    font-family: "F37 Caslon", serif;
+}
+.fades{
+    font-family: "F37 Caslon", serif;
+    color: grey;
+    opacity: 0.5;
+}
+
+.fi::before {
+    content: '';
+    display: inline-block;
+    width: 10px; /* Adjust as needed */
+    height: 15px; /* Adjust as needed */
+    margin-right: 2px; /* Adjust as needed */
+    margin-bottom: -3px;
+    background: url('https://24carrots.com/wp-content/themes/24carrots/img/icon/facebook.svg') bottom/cover no-repeat;
+}
+
+.ii::before {
+    content: '';
+    display: inline-block;
+    width: 10px; /* Adjust as needed */
+    height: 15px; /* Adjust as needed */
+    margin-right: 2px; /* Adjust as needed */
+    margin-bottom: -3px;
+    background: url('https://24carrots.com/wp-content/themes/24carrots/img/icon/instagram.svg') bottom/cover no-repeat;
+}
+
+.pi::before {
+    content: '';
+    display: inline-block;
+    width: 10px; /* Adjust as needed */
+    height: 15px; /* Adjust as needed */
+    margin-right: 2px; /* Adjust as needed */
+    margin-bottom: -3px;
+    background: url('https://24carrots.com/wp-content/themes/24carrots/img/icon/pinterest.svg') bottom/cover no-repeat;
+}
+
+.li::before {
+    content: '';
+    display: inline-block;
+    width: 10px; /* Adjust as needed */
+    height: 15px; /* Adjust as needed */
+    margin-right: 2px; /* Adjust as needed */
+    margin-bottom: -3px;
+    background: url('https://24carrots.com/wp-content/themes/24carrots/img/icon/linkedIn.svg') bottom/cover no-repeat;
+}
+.hrrw{
+    width: 39vw;
+    height: 3px;
+    color: #011405;
+    background-color: #011405;
+}
+.cologo::after {
+    content: '';
+    display: inline-block;
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    margin-left: 10px; /* Adjust as needed */
+    margin-bottom: -12px;
+    background: url('https://24carrots.com/wp-content/themes/24carrots/img/icon/dcc-logo.svg') bottom/cover no-repeat;
+}
+.hrrw2{
+    width: 100%;
+    height: 3px;
+    color: #011405;
+    background-color: #011405;
+}
+.QQQ p{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    letter-spacing: 0.16px;
+    color: #1A4122;
+    font-family: "F37 Caslon", serif;
+}
+.small-screen-disappear p{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    letter-spacing: 0.16px;
+    color: #1A4122;
+    font-family: "F37 Caslon", serif;
+    text-align: center!important;
+}
+.displayInMobileOnly{
+    display: none;
+}
+.mq-d-n{
+    display: flex!important;
+}
+.copyrightonlyMobile{
+    display: none;
+}
+
+
+/*media Queris*/
+@media (max-width: 991.98px) { 
+    .Footer{
+        background-color: #E9E4E0;
+        padding-top: 5vh;
+    }
+    .mqfooterflexbasis100{
+        flex-basis: 100%;
+    }
+    .main{
+        color: #011405;
+        font-family: "F37 Caslon", serif;
+        text-align: center;
+    }
+    .mainp{
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 140%;
+        letter-spacing: 0.16px;
+        color: #1A4122;
+        font-family: "F37 Caslon", serif;
+        text-align: center;
+        margin-left: 25vw;
+        margin-right: 25vw;
+    }
+    .fades{
+        font-family: "F37 Caslon", serif;
+        color: grey;
+        opacity: 0.5;
+        text-align: center;
+    }
+    .mqborder-bottom{
+        border-bottom: 1px solid #1A4122 ;
+    }
+    .mqpadding-top-footer{
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+
+    }
+    
+    .linkFooter{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        font-family: "F37 Caslon", serif;
+        flex-basis: 50%;
+        margin-top: 0.55rem;
+        margin-bottom: 0.55rem;
+        
+        
+    }
+    .mq-footer-align-items-end{
+        align-items: flex-end;
+        padding-right: 1.5rem;
+    }
+    .mq-footer-align-items-start{
+        align-items: flex-start;
+        padding-left: 1.5rem;
+    }
+    .displayInMobileOnly{
+        display: inline-block;
+    }
+    .hrrw{
+        display: none;
+    }
+    .mqflexbasis100footer{
+        flex-basis:100%;
+    }
+    .in-center{
+        justify-content: center!important;
+        align-items: center!important;
+    }
+    .mqtext-center-Footer{
+        text-align: center!important;
+    }
+    .mq-dblock-Footer{
+        display: block;
+    }
+    .mq-d-n{
+        display: none!important;
+    }
+    .footer-style{
+        
+    color: #011405;
+    
+    text-wrap: nowrap;
+    text-transform: uppercase;
+    font-family: "F37 Caslon", serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 90%;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    
+    }
+    .mqnomarginstart-Footer{
+        margin-left: 0!important;
+    }
+    .hrrw2{
+        display: none;
+    }
+    .mqborder-tt{
+        border-top: 1px solid #1A4122 ;
+    }
+    .mqq{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mb0{
+        margin-bottom: 0!important;
+    }
+    .copyrightonlyMobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .mqpb0{
+        padding-bottom: 0!important;
+    }
+    .copyrightonlyMobile .img-fluid{
+        width: 50px;
+        height: 50px;
+    }
+ }
+
+
+ @media (max-width: 767.98px) { 
+    .Footer{
+        background-color: #E9E4E0;
+        padding-top: 5vh;
+    }
+    .mqfooterflexbasis100{
+        flex-basis: 100%;
+    }
+    .main{
+        color: #011405;
+        font-family: "F37 Caslon", serif;
+        text-align: center;
+    }
+    .mainp{
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 140%;
+        letter-spacing: 0.16px;
+        color: #1A4122;
+        font-family: "F37 Caslon", serif;
+        text-align: center;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+    .fades{
+        font-family: "F37 Caslon", serif;
+        color: grey;
+        opacity: 0.5;
+        text-align: center;
+    }
+    .mqborder-bottom{
+        border-bottom: 1px solid #1A4122 ;
+    }
+    .mqpadding-top-footer{
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+
+    }
+    
+    .linkFooter{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        font-family: "F37 Caslon", serif;
+        flex-basis: 50%;
+        margin-top: 0.55rem;
+        margin-bottom: 0.55rem;
+        
+        
+    }
+    .mq-footer-align-items-end{
+        align-items: flex-end;
+        padding-right: 0.5rem;
+        
+    }
+    .mq-footer-align-items-start{
+        align-items: flex-start;
+        padding-left: 0.5rem;
+    }
+    .displayInMobileOnly{
+        display: inline-block;
+    }
+    .hrrw{
+        display: none;
+    }
+    .mqflexbasis100footer{
+        flex-basis:100%;
+    }
+    .in-center{
+        justify-content: center!important;
+        align-items: center!important;
+    }
+    .mqtext-center-Footer{
+        text-align: center!important;
+    }
+    .mq-dblock-Footer{
+        display: block;
+    }
+    .mq-d-n{
+        display: none!important;
+    }
+    .footer-style{
+        
+    color: #011405;
+    
+    text-wrap: nowrap;
+    text-transform: uppercase;
+    font-family: "F37 Caslon", serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 90%;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    
+    }
+    .mqnomarginstart-Footer{
+        margin-left: 0!important;
+    }
+    .hrrw2{
+        display: none;
+    }
+    .mqborder-tt{
+        border-top: 1px solid #1A4122 ;
+    }
+    .mqq{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mb0{
+        margin-bottom: 0!important;
+    }
+    .copyrightonlyMobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .mqpb0{
+        padding-bottom: 0!important;
+    }
+    .copyrightonlyMobile .img-fluid{
+        width: 50px;
+        height: 50px;
+    }
+ }

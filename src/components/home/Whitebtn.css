@@ -1,0 +1,57 @@
+.wcommonbtn {
+    position: relative;
+    display: inline-block;
+    background-color: #FFF;
+    border-radius: 30px;
+    padding: 10px 60px 10px 40px;
+    text-wrap: nowrap;
+    text-transform: uppercase;
+    font-family: "futura-pt", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.6px;
+    color: #b44f20;
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s;
+    cursor: pointer;
+    z-index: 2;
+    border: 1px solid #b44f20;
+  }
+  
+  .wcommonbtn:hover {
+    background-color: #b44f20; /* lighter color */
+  }
+  
+  .warrow {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  width: 20px; /* Width of the arrow */
+  height: 20px; /* Height of the arrow */
+  transition: transform 0.2s;
+}
+
+.warrow::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  width: 10px; /* Size of the arrow */
+  height: 10px; /* Size of the arrow */
+  border-top: 2px solid #b44f20; /* Color and thickness of the arrow */
+  border-right: 2px solid #b44f20; /* Color and thickness of the arrow */
+}
+  
+  .wcommonbtn.hovered .warrow {
+    transform: translate(5px, -50%);
+    
+  }
+  .wcommonbtn:hover{
+    color: #b44f20;
+    background-color: #fff;
+  }
+  

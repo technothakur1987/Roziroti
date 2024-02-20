@@ -1,0 +1,48 @@
+#root {
+  
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 0;
+  right: 50%;
+  transform: translateX(50%);
+ height: 5vh;
+ min-width: 15vw;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+   /* Initially hidden */
+  z-index: 9999;
+  background: url('https://24carrots.com/wp-content/themes/24carrots/img/back_to_top.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+@media (max-width: 991.98px) { 
+  .scroll-to-top{
+    background-size: contain;
+    padding: 0px 20px;
+  }
+  
+ }
+ @media (max-width: 767.98px) { 
+  .scroll-to-top{
+    background-size: contain;
+    padding: 0px 0px;
+    height: 20vh;
+    min-width: 25vw;
+    transform: translateX(50%)translateY(40%)
+  }
+  
+ }
+
+
+
+

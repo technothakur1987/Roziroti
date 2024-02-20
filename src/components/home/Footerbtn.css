@@ -1,0 +1,53 @@
+.fcommonbtn {
+    position: relative;
+    display: inline-block;
+    color: #011405;
+    padding: 10px 20px 10px 0px;
+    text-wrap: nowrap;
+    text-transform: uppercase;
+    font-family: "F37 Caslon", serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 90%;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s;
+    cursor: pointer;
+    z-index: 2;
+}
+  
+  .fcommonbtn:hover {
+    color: #011405;; /* lighter color */
+  }
+  
+  .farrow {
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    transition: transform 0.2s;
+}
+
+.farrow::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  width: 10px; /* Size of the arrow */
+  height: 10px; /* Size of the arrow */
+  border-top: 2px solid #b44f20; /* Color and thickness of the arrow */
+  border-right: 2px solid #b44f20; /* Color and thickness of the arrow */
+}
+  
+  .fcommonbtn.hovered .farrow {
+    transform: translate(5px, -50%);
+    
+  }
+  .fcommonbtn:hover{
+    color: #011405;;
+  }
+  

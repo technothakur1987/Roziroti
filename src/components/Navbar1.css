@@ -1,0 +1,318 @@
+.navbar{
+    min-height: 18vh;
+    z-index: 9998!important;
+    display: block ;
+    
+    
+}
+a{
+    text-decoration: none!important;
+}
+.navlink1{
+    position: relative;
+    color: #1A4122;
+    text-transform: uppercase;
+    font-family: "futura-pt", sans-serif;
+    font-size: 0.675rem;
+    letter-spacing: 1.9px;
+    font-style: normal;
+    font-weight: 450;
+}
+.Droplets1{
+   position: absolute;
+   min-height: fit-content;
+   min-width: 20vw;
+   display: none;
+   background-color:#fff;
+   padding: 1.25rem 0.5rem;
+   
+
+}
+.Droplets1 li{
+margin-bottom: 0.55rem;
+white-space: nowrap;
+}
+.Droplets1 li a, .Droplets2 li a, .Droplets3 li a{
+    color: #1A4122;
+    text-transform: uppercase;
+    font-family: "futura-pt", sans-serif;
+    font-size: 0.875rem;
+    letter-spacing: 2.1px;
+    font-style: normal;
+    font-weight: 450;
+}
+.navlink1:hover .Droplets1{
+    display: block;
+    cursor: pointer;
+}
+.navlink2{
+    position: relative;
+    color: #1A4122;
+    text-transform: uppercase;
+    font-family: "futura-pt", sans-serif;
+    font-size: 0.675rem;
+    letter-spacing: 1.9px;
+    font-style: normal;
+    font-weight: 450;
+}
+.Droplets2{
+   position: absolute;
+   min-height: fit-content;
+   min-width: 20vw;
+   display: none;
+   background-color:#fff;
+   padding: 1.25rem 0.5rem;
+
+}
+.Droplets2 li{
+    margin-bottom: 0.55rem;
+    white-space: nowrap;
+    }
+.navlink2:hover .Droplets2{
+    display: block;
+    cursor: pointer;
+}
+.navlink3{
+    position: relative;
+    color: #1A4122;
+    text-transform: uppercase;
+    font-family: "futura-pt", sans-serif;
+    font-size: 0.675rem;
+    letter-spacing: 1.9px;
+    font-style: normal;
+    font-weight: 450;
+}
+.Droplets3{
+   position: absolute;
+   min-height: fit-content;
+   min-width: 15vw;
+   display: none;
+   background-color:#fff;
+   padding: 1.25rem 0.5rem;
+
+}
+.Droplets3 li{
+    margin-bottom: 0.55rem;
+    white-space: nowrap;
+    }
+.navlink3:hover .Droplets3{
+    display: block;
+    cursor: pointer;
+
+
+    
+}
+.mainLink{
+    text-decoration: none;
+}
+.mainLink h2{
+    
+    color: #1A4122;
+    text-transform: uppercase;
+    font-family: "futura-pt", sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 2.1px;
+    font-style: normal;
+    font-weight: 450;
+
+}
+.mainLink p{
+    color: grey;
+    font-family: "futura-pt", sans-serif;
+    opacity: 0.5;
+    font-size: 0.9rem;
+}
+.navlink4, .navlink5{
+    color: #1A4122;
+    text-transform: uppercase;
+    font-family: "futura-pt", sans-serif;
+    font-size: 0.375rem;
+    letter-spacing: 1.6px;
+    font-style: normal;
+    font-weight: 450;
+}
+.oraneHover:hover{
+    color:#C15627
+}
+
+.headerbtn{
+    color: #FFF;
+    filter: brightness(120%);
+    background-color: #C15627;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding:0.25rem 0.75rem;
+    text-align: center;
+    min-width: fit-content;
+    margin-bottom: 1.25rem;
+    font-size: smaller;
+    transition: 0.3s ease;
+}
+.headerbtn:hover{
+    background-color: #df794e;
+}
+.appear {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .no-wrap{
+    white-space: no-wrap;
+  }
+
+
+  /*mobile -view css here */
+
+
+  .mobile-nav{
+    display:none!important;
+    height: 10vh;
+    width: 100vw;
+    z-index: 9997!important;
+  }
+  .mobile-nav-main{
+    min-height: 10vh;
+    padding-top: 1.5rem;
+    
+}
+.mobile-mainLink{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.mobile-mainLink h2{
+
+    color: #1A4122;
+    text-transform: uppercase;
+    font-family: "futura-pt", sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 1.7px;
+    font-style: normal;
+    font-weight: 450;
+    text-align: center;
+    white-space: nowrap;
+
+}
+.mobile-mainLink p{
+    color: grey;
+    font-family: "futura-pt", sans-serif;
+    opacity: 0.5;
+    font-size: 0.9rem;
+    text-align: center;
+    white-space: nowrap;
+}
+.openbtn{
+    height: 2rem!important;
+}
+
+
+/*mobilemenuitems*/
+.mobilemenuItems{
+    position: absolute;
+    z-index: 9999;
+    background: #1A4122;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    
+}
+.logomobile{
+  
+width: 150px;
+height: 50px;
+position: absolute;
+top: 51px;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.mobLink{
+    color: #B4C7A3;
+    text-align: center;
+    font-size: 40px;
+    font-family: "F37 Caslon", serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 92%;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    transition: 0.5s ease;
+}
+.aboutul{
+    transition: 0.5s ease;
+}
+.aboutul li a{
+    color: #FFF;
+text-decoration: none;
+font-family: "futura-pt", sans-serif !important;
+text-align: center;
+font-size: 20px !important;
+font-style: normal !important;
+font-weight: 450 !important;
+line-height: 190% !important;
+letter-spacing: 3.9px !important;
+text-transform: uppercase !important;
+text-align: center!important;
+margin-bottom: 0;
+
+
+}
+.mainmobul li{
+    margin-bottom: 1.0rem;
+}
+.shortLink a{
+    color: #E9E4E0 !important;
+    text-align: center;
+    font-family: Futura PT;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 151%;
+    letter-spacing: 0.84px;
+    text-transform: capitalize;
+    margin: 10px;
+    text-decoration: none;
+}
+.textp{
+    color: #FFF;
+text-align: center;
+font-family: "futura-pt", sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 200;
+line-height: 120%;
+margin: 0 0 20px;
+}
+.lstp{
+    text-align: center;
+    color: #647B4E;
+    text-align: center;
+    font-family: "futura-pt", sans-serif;
+    font-size: 17.529px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-transform: capitalize;
+}
+
+  @media (max-width: 991.98px)  { 
+    .mobile-nav{
+display: flex!important;
+z-index:9998!important;
+font-size: smaller!important;
+
+   
+      }
+      .navbar {
+        display: none !important;
+      }
+      .mobilemenuItems{
+        font-size: smaller!important;
+      }
+    
+ }
